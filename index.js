@@ -15,6 +15,6 @@ let randomNumber = Math.random();
 
 let randomInteger = Math.floor(randomNumber);
 
-
-
-let randomUserID = Math.floor(Math.random() * 1000000000) + 1;
+let min=1000000001;
+let max=1000000020;
+let randomUserID = Math.floor(Math.random() * (+max - +min)) + +min;
