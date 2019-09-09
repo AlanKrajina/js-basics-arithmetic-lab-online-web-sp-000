@@ -20,4 +20,3 @@ let multiply = var1 * var2;
 let random = Math.random();
 
 let mod = 2 + 2;
-
