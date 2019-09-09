@@ -13,7 +13,7 @@ let ageIsValid = Number.isInteger(currentAge);
 
 let randomNumber = Math.random();
 
-let randomInteger = Math.round(randomNumber);
+let randomInteger = Math.floor(randomNumber);
 
 
 
